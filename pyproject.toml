@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "itgrowdivision-tasks"
+version = "0.1.0"
+description = "This is the completion of the tasks given to me by email by IT Grow Division"
+authors = ["Samin Yasar <saminc97@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = {version = "^2.0.1+cpu", source = "pytorch-cpu"}
+torchvision = {version = "^0.15.2+cpu", source = "pytorch-cpu"}
+torchaudio = {version = "^2.0.2+cpu", source = "pytorch-cpu"}
+wandb = "^0.15.11"
+googletrans = "4.0.0-rc1"
+
+
+[[tool.poetry.source]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+priority = "supplemental"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

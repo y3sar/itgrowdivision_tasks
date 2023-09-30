@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Mnist /data 
+data/
+
+# Wandb
+wandb
+
+# Virtual Environment
+venv/
+env/
+*.env/
+.venv/
+pipenv/
+
+# VSCode
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Compiled Python files
+*.pyc
+
+# Compiled C extension
+*.so
+
+# Compiled bytecode
+*.pyc
+__pycache__/
+
+# Python coverage data
+.coverage
+.coverage.*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# dotenv
+.env
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
